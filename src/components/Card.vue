@@ -45,7 +45,7 @@ export default {
         let canClick = ref(false)
 
         const image = computed( () => {
-            return `/memo/game/assets/image/cards/${props.card}.jpeg`
+            return `/memo-game/assets/image/cards/${props.card}.jpeg`
         })
 
         const onClickCard = () => {
